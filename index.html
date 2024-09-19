@@ -3,11 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <p>ეს ჩემი პირველი საიტია</p>
+    <h1>მომხმარებელთა მონაცემები</h1>
+   <table>
+    <thead>
+        <tr>
+            <th>სახელი</th>
+            <th>გვარი</th>
+            <th>ასაკი</th>
+            <th>პროფესია</th>
+            <th>ადგილმდებარეობა</th>
+        </tr>
+       
+    </thead>
+    <tbody>
+        <tr>
+            <td>ნატო</td>
+            <td>ბარათაშვილი</td>
+            <td>22</td>
+            <td>დეველოპერი</td>
+            <td>თბილისი</td>
+        </tr>
+
+        <tr>
+            <td>ანა</td>
+            <td>ბარათაშვილი</td>
+            <td>23</td>
+            <td>მასწავლებელი</td>
+            <td>თბილისი</td>
+        </tr>
+
+        <tr>
+            <td>გიორგი</td>
+            <td>გიორგაძე</td>
+            <td>34</td>
+            <td>დეველოპერი</td>
+            <td>ქუთაისი</td>
+        </tr>
+
+        <tr>
+            <td>ნატო</td>
+            <td>ბარათაშვილი</td>
+            <td>22</td>
+            <td>დეველოპერი</td>
+            <td>თბილისი</td>
+        </tr>
+       
+    </tbody>
+   </table>
+   <br>
+
+   <form>
+    <label for="nCompany">კომპანიის სახელი:</label><br>
+    <input type="text" id="nCompany"><br>
+
+    <label for="number">ტელეფონის ნომერი:</label><br>
+    <input type="number" id="number"><br>
+
+    <label for="rDate">რეგისტრაციის თარიღი:</label><br>
+    <input type="date" id="rDate"><br>
+
+    <label for="cauntries">ქვეყანა:</label><br>
+    <select name="cauntries" id="cauntries">
+        <option value="geo">საქართველო</option>
+        <option value="usa">აშშ</option>
+        <option value="spain">ესპანეთი</option>
+    </select><br>
+
+    <label for="em">ელფოსტა:</label><br>
+    <input type="email" id="em"><br>
+
+    <label for="em">სქესი:</label><br>
+  
+    <input type="radio" id="male" name="gender">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender">
+    <label for="female">Female</label><br>
+
+   </form>
     
 </body>
 </html>
